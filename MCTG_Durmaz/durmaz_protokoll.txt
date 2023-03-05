@@ -1,0 +1,31 @@
+--Muhammed Durmaz (if22b157)
+
+Protokoll für das Semester-Projektin SWEN1
+(MonsterTradingCardGame)
+
+Fehlende Aufgabenstellungen:
+BattleLogic
+
+Describing Design:
+
+Das Projekt wurde in C# geschrieben und als Compiler das Visual Studio 2019 verwendet. Anfangs hatte ich beim erstellen des Projektes viele probleme weil ich ausversehen das net framework anstelle des net cores verwendet habe.
+Der Server wartet auf einkommende Clientanfragen und startet dann einen Thread, damit mehrere User gleichzeitig darauf zugreifen können. Der "Router" entscheidet dann, je nach HttpMethode und Route, welche Aktion/Klasse ausgeführt werden soll. Zum großen Teil wurde die von Ihnen erstellte Vorlage verwendet (danke nochmal :D), für 
+den Server/Client-Teil. Es wurde das NPGSQL Extension verwendet, um die Verbindung zur Datenbank herzustellen. 
+
+Lessons Learned:
+
+Exception-Testing. Ich habe bei fast jeder Methode einen try-catch block eingeführt, da ich anfangs sehr starke probleme mit dem Projekt hatte. Die ersten Tage verliefen wirklich nur Fehler zu erkennen und dementsprechend gegenzureagieren. Wir hatten in der Schule davor auch etwas mit Rest-Anwendungen zu tun und auch ein großer Bestandteil meiner Diplomarbeit war es, aber dafür haben wir ASP.NET Core-Web-APIs verwendet, welches dies um einiges erleichtert. Aber dadurch, dass hier wirklich alles selber aufgebaut worden ist (mit ausnahme einiger packages), versteht man den Aufbau wirklich um einiges besser. Auch zum Thema Zeitmanagement habe ich einiges gelernt, denn dies ist bis heute immer noch meine größte Schwäche.
+
+Unit Testing:
+
+Generell ging es in meinen Unit-Testings um Methoden-Überprüfungen von der Datenbankklasse. Ich wollte auch noch API-Calls überprüfen mit dem extra package mock, aber dass war mir doch etwas zu schwierig. Es wurden Objekte in der DB erstellt, diese gelöscht und geupdated.
+
+Unique-Feature:
+Da ich leider die Battle-Function komplett auslassen musste, aufgrund Zeitmangel.. (da kommen wir wieder zum Thema Zeitmanagement..), habe ich mir überlegt, dass ich zumindestens ein Feature einbaue, welches etwas damit zu hat. Man kennt es von vielen Spielen: Es gibt immer Leute die mehr Siege haben und damit angeben und es ist meistens schwer diese Leute zu überbieten, da diese entweder mehr Zeit zum spielen haben oder früher angefangen zu spielen. Deshalb kann jeder User einmal die Woche den Link aufrufen und entweder Siege (-10, +10) gutgeschrieben bekommen. Mal hat man einen Glückstag, mal einen schlechten Tag. Hier kann es auch lustig sein mit Freunden dies wöchentlich gemeinsam aufzumachen und sich zu freuen (oder von Ihnen ausgelacht werden). 
+
+Tracked time:
+
+Da ich neben der Betriebspraxisphase auch noch einen Samstagsjob als Promoter habe (und gefühlt immer müde bin) hat sich das Projekt hiermit übergezogen. Anfangs habe ich täglich 2-3h gearbeitet und dann verfiel mir die Laune, da ich mich sehr mit dem requesthandling beschäftigt habe. Aber als dass dann mal endlich geschafft wurde, konnte ich auch länger arbeiten ohne irgendetwas gegen die Wand zu werfen. Dass man seine gemachten Änderungen im Nachhinein direkt erblicken konnte, motivierte einen schon. Ich würde sagen, dass der Zeitverbrauch hierfür bei ungefähr 70 Stunden liegen würde.
+
+Link to git:
+ 
