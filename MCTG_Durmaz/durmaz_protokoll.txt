@@ -28,4 +28,6 @@ Tracked time:
 Da ich neben der Betriebspraxisphase auch noch einen Samstagsjob als Promoter habe (und gefühlt immer müde bin) hat sich das Projekt hiermit übergezogen. Anfangs habe ich täglich 2-3h gearbeitet und dann verfiel mir die Laune, da ich mich sehr mit dem requesthandling beschäftigt habe. Aber als dass dann mal endlich geschafft wurde, konnte ich auch länger arbeiten ohne irgendetwas gegen die Wand zu werfen. Dass man seine gemachten Änderungen im Nachhinein direkt erblicken konnte, motivierte einen schon. Ich würde sagen, dass der Zeitverbrauch hierfür bei ungefähr 70 Stunden liegen würde.
 
 Link to git:
+
+https://github.com/momod40/MCTG_Durmaz2
  
